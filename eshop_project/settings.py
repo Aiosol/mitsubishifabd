@@ -48,7 +48,7 @@ JAZZMIN_SETTINGS = {
     "site_title": "My eShop Admin",
     "site_header": "My eShop Admin",
     "site_brand": "My eShop",
-    "login_logo": None,      # e.g. "images/logo.png" if you have a static logo
+    "login_logo": None,      # e.g. "images/logo.png"
     "show_sidebar": True,
     "navigation_expanded": True,
 }
@@ -125,7 +125,7 @@ USE_TZ = True
 # ───────────────────────────────────────────
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'eshop' / 'static']
-STATIC_ROOT    = BASE_DIR / 'staticfiles'     # ←★ THIS LINE IS CRUCIAL
+STATIC_ROOT = BASE_DIR / 'staticfiles'    # ←★ This line is mandatory
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
